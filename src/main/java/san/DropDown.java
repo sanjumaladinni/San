@@ -15,8 +15,7 @@ public class DropDown {
 		driver.get("https://www.hdfc.bank.in/");
 		
 		  
-		  driver.findElement(By.xpath("//a[@data-labeltext=\"Discover Products\"]")).
-		  click(); //
+		  driver.findElement(By.xpath("//a[@data-labeltext=\"Discover Products\"]")). click(); //
 		  driver.findElement(By.xpath("//a[@data-labeltext=\"Deposits\"]")).click();
 		 
 		List<WebElement> list = driver.findElements(
